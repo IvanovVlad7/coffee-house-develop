@@ -1,0 +1,232 @@
+body {
+    background-color: #E1D4C9;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.nav_logo {
+    width: 100px;
+    height: 60px;
+}
+
+.nav_list {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav_item {
+    margin-right: 20px;
+}
+
+.nav_button {
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    background: #E1D4C9;
+}
+
+.afterAll {
+    border-radius: 40px;
+}
+
+main {
+    margin-top: 20px;
+}
+
+.main_text {
+    font-size: 72px;
+    color: rgba(225, 212, 201, 1);
+}
+
+.highlight {
+    color: rgba(176, 144, 122, 1);
+}
+
+.description_text {
+    font-size: 16px;
+    color: rgba(225, 212, 201, 1);
+}
+
+.image_container {
+    width: 100%;
+}
+
+.offer {
+    position: absolute;
+    top: 17%;
+}
+
+
+.menu_button {
+    background: rgba(225, 212, 201, 1);
+    border-radius: 100px;
+    border: none;
+    width: 175px;
+    height: 64px;
+    font-size: 16px;
+}
+
+
+.coffee_selection_container {
+    margin-top: 40px;
+}
+
+.coffee_info {
+    text-align: center;
+}
+
+
+
+.main_heading {
+    color: rgba(64, 63, 61, 1);
+    font-size: 60px;
+}
+
+
+
+.coffee_name {
+    color: rgba(64, 63, 61, 1);
+}
+
+
+.coffee_description {
+    color: rgba(64, 63, 61, 1);
+    font-size: 16px;
+}
+
+
+.resource_section {
+    text-align: center;
+}
+
+.custom_container {
+    width: 100%;
+}
+
+.resource_description {
+    font-size: 70px;
+    text-align: justify;
+}
+
+
+
+
+.photo_container {
+    display: flex;
+    gap: 40px;
+}
+
+
+.first_column,
+.second_column {
+    display: flex;
+    flex-direction: column;
+    gap: 40px
+}
+
+
+.about_second,
+.about_third {
+    width: 660px;
+    height: 430px;
+    border-radius: 20px;
+}
+
+.about_first,
+.about_fourth {
+    width: 660px;
+    height: 590px;
+    border-radius: 20px;
+}
+
+
+.app_download_container {
+    margin-top: 40px;
+    display: flex;
+}
+
+
+.download_heading {
+    font-size: 60px;
+}
+
+.download_description {
+    font-size: 16px;
+}
+
+
+.app_download_text {
+    margin-top: 70px;
+}
+
+
+.app_buttons {
+    margin-top: 40px;
+}
+
+
+.main-footer {
+    margin-top: 40px;
+    background-color: rgba(102, 95, 85, 1);
+    border-radius: 40px;
+}
+
+
+
+.coffee-text {
+    font-size: 60px;
+    color: rgba(225, 212, 201, 1);
+}
+
+.contact-heading {
+    font-size: 24px;
+    color: rgba(225, 212, 201, 1);
+
+}
+
+
+.contact-icons a {
+    display: flex;
+}
+
+.contact-icons a[target="_blank"] div {
+    color: rgba(225, 212, 201, 1)
+}
+
+.footer-section {
+    display: flex;
+    align-items: center; 
+    justify-content: space-around; 
+}
+
+
+.social-buttons img {
+    margin-right: 10px;
+}
+
+
+.social-buttons a {
+    margin-bottom: 10px
+}
+
+
+
+.control{
+  width: 40px;
+  height: 4px;
+  border-radius: 100px;
+  color: rgba(102, 95, 85, 1);
+  
+}
